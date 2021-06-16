@@ -9,6 +9,7 @@ namespace OsmanskiQueryEngine
     public class Data
     {
         public List<User> Users;
+
         public List<Order> Orders;
     }
 }
