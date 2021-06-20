@@ -8,9 +8,15 @@ namespace OsmanskiQueryEngine
 {
     public class User
     {
-        public int Id;
-        public string Email;
-        public string FullName;
-        public int Age;
+        public User(string fullname, string email, int age)
+        {
+            FullName = fullname;
+            Email = email;
+            Age = age;
+        }
+
+        public string FullName { get; set; }
+        public string Email { get; set; }
+        public int Age { get; set; }
     }
 }
